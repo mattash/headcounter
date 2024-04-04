@@ -16,6 +16,13 @@ bash
 pip install opencv-python numpy
 ```
 
+You also need to download the weights files by running these scripts
+
+```
+sh ./download_yolo.sh
+sh ./get_models.sh
+```
+
 ## Usage
 To run this project, you can use the following command:
 

@@ -3,8 +3,8 @@
 W_FILENAME=yolov3-wider_16000.weights.zip
 H5_FILENAME=YOLO_Face.h5.zip
 
-if [ ! -d "./model-weights" ]; then
-    mkdir -p ./model-weights;
+if [ ! -d "./yoloface-lib" ]; then
+    mkdir -p ./yoloface-lib;
 fi
 
 cd model-weights

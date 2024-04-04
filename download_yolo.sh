@@ -5,9 +5,9 @@ YOLOV3_WEIGHTS_URL="https://pjreddie.com/media/files/yolov3.weights"
 YOLOV3_CFG_URL="https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg"
 
 # Download YOLOv3 weights
-wget -O yolov3.weights $YOLOV3_WEIGHTS_URL
+wget -O photocounter-lib/yolov3.weights $YOLOV3_WEIGHTS_URL
 
 # Download YOLOv3 cfg
-wget -O yolov3.cfg $YOLOV3_CFG_URL
+wget -O photocounter-lib/yolov3.cfg $YOLOV3_CFG_URL
 
 echo "Download completed."
