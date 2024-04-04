@@ -32,3 +32,6 @@ python3 face_counter.py <path_to_image>
 This command will count faces only
 
 Replace <path_to_image> with the path to the image you want to process.
+
+## TODO
+Build a seperate clip for counting faces in a video.
