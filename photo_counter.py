@@ -15,7 +15,7 @@ def load_yolo():
     # Load all class names from coco.names
     with open("photocounter-lib/coco.names", "r") as f:
         classes = [line.strip() for line in f.readlines()]
-    print(f"Loaded {len(classes)} classes.")
+    # print(f"Loaded {len(classes)} classes.")
 
     return net, classes, output_layers
 
@@ -86,12 +86,12 @@ def count_people(img_path):
     colors = np.random.uniform(0, 255, size=(len(classes), 3))
     
     # Draw labels on the image
-    draw_labels(boxes, confs, colors, class_ids, classes, image)
+    # draw_labels(boxes, confs, colors, class_ids, classes, image)
     
     # Display the image
-    cv2.imshow("Image", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow("Image", image)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     # Count and print the number of people
     people_count = sum([1 for i in class_ids if i < len(classes) and classes[i] == "person"])

@@ -55,12 +55,12 @@ def count_faces(img_path):
     final_boxes = [boxes[i] for i in indices.flatten()]
 
     # Draw labels on the image
-    draw_labels(final_boxes, image)
+    # draw_labels(final_boxes, image)
     
     # Display the image
-    cv2.imshow("Image", image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    # cv2.imshow("Image", image)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
     # Print the number of faces detected
     print(f"Number of faces detected: {len(final_boxes)}")
